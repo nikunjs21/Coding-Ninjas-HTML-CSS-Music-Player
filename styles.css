@@ -36,7 +36,7 @@ header div{
 .navigation{
     display: flex;
     transition: all 1s ease-in-out;
-    z-index: 1;
+    z-index: 3;
 }
 
 #logo{
@@ -113,7 +113,7 @@ ion-icon{
 
 main{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     /* padding-top: 2rem; */
     justify-content: space-around;
     margin: auto;
@@ -123,19 +123,20 @@ main{
 aside {
     width: 50vw;
     padding: 2rem;
-    vertical-align: top;
-    overflow: auto;
-    height: 80vh;
+    /* vertical-align: top; */
+    /* overflow: auto; */
+    height: fit-content;
     padding-right: 2rem;
+    align-self: top;
 }
 
 #section_main{
     width: 100%;
     padding-left: 2rem;
-    padding-right: 2rem;
-    overflow: auto;
+    /* overflow: auto; */
     margin-top: 5px;
-    height: 80vh;
+    height: fit-content;
+    margin-bottom: 100px;
 }
 
 .outer-carousel {
