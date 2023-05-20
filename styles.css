@@ -132,6 +132,7 @@ aside {
 #section_main{
     width: 100%;
     padding-left: 2rem;
+    padding-right: 2rem;
     overflow: auto;
     margin-top: 5px;
     height: 80vh;
@@ -166,11 +167,6 @@ aside {
     z-index: 2;
 }
 
-.carousel img {
-    height: 15vw;
-    width: 22.5vw;
-    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
-}
 .carousel img {
     height: 15vw;
     width: 22.5vw;
@@ -224,4 +220,33 @@ aside {
     width: 100%;
     justify-content: space-between;
     margin-top: 1rem;
+}
+
+.song_list__item{
+    background-color: var(--background-light-color);
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.song_list__item_content{
+    display: flex;
+    align-items: center;
+}
+
+.song_list__item_content span{
+    padding: 1rem;
+}
+
+.song_list__item_content h5{
+    margin: 0;
+}
+
+.song_name_container{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.song_name_container .small{
+    font-size: 0.6rem;
 }

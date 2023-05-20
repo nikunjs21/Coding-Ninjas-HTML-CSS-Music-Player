@@ -19,6 +19,19 @@ ion-icon[name="menu-outline"]:focus + .navigation{
 }
 
 @media (max-width: 800px){
+
+    main{
+        flex-direction: column;
+    }
+
+    aside{
+        width: 100vh;
+    }
+
+    .similar{
+        padding: 0 2rem;
+    }
+
     .navigation{
         opacity: 0;
         position: absolute;
