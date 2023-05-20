@@ -12,7 +12,8 @@ html, body{
 }
 
 body{
-    display: flex;
+    /* display: flex; */
+    height: 100%;
 }
 
 header{
@@ -113,6 +114,114 @@ ion-icon{
 main{
     display: flex;
     align-items: center;
+    /* padding-top: 2rem; */
     justify-content: space-around;
+    margin: auto;
+    width: 100%;
 }
 
+aside {
+    width: 50vw;
+    padding: 2rem;
+    vertical-align: top;
+    overflow: auto;
+    height: 80vh;
+    padding-right: 2rem;
+}
+
+#section_main{
+    width: 100%;
+    padding-left: 2rem;
+    overflow: auto;
+    margin-top: 5px;
+    height: 80vh;
+}
+
+.outer-carousel {
+    position: relative;
+    /* left: 8vw; */
+    margin-top: 5%;
+    /* transition: all ease-in-out 1s; */
+}
+
+.carousel {
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.carousel_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.carousel img:nth-child(1) {
+    position: relative;
+    /* left: 41vw; */
+    z-index: 2;
+}
+
+.carousel img {
+    height: 15vw;
+    width: 22.5vw;
+    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}
+.carousel img {
+    height: 15vw;
+    width: 22.5vw;
+    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}
+
+.carousel2{
+    box-shadow: 2px 2px 5px 2px var(--background-light-color);
+    display: flex;
+}
+
+.carousel img:hover {
+    z-index: 4;
+    box-shadow: 0px 0px 12px 0.1px black;
+    height: 18vw;
+    width: 27vw;
+}
+
+.carousel-content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playall-btn{
+    outline: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0;
+    background-image: linear-gradient(90deg, var(--blue), var(--violete));
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.followlink{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.followlink:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.song-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+}

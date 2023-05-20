@@ -2,4 +2,36 @@
     --background-color: #00001c;
     --background-light-color: #00005b;
     --background-lightest-color: #00009b;
+    --blue: #3925B1;
+    --violete: #B544DA;
 }
+
+.float-r{
+    float: right;
+}
+
+.small{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    font-weight: lighter;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--background-color); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--background-light-color); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--background-lightest-color); 
+  }
