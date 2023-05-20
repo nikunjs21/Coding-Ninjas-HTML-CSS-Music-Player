@@ -263,7 +263,7 @@ footer {
     justify-content: space-between;
     align-content: center;
     flex-wrap: nowrap;
-    padding: 0px 3%;
+    padding: 1rem 3%;
     box-sizing: border-box;
     z-index: 1;
 }
