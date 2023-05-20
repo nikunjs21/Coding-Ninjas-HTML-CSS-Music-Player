@@ -258,7 +258,81 @@
         </div>
       </aside>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="active-song-description">
+        <!-- song image -->
+        <div id="song-image">
+          <img src="assets/Bones.png" />
+        </div>
+        <!-- song name and author -->
+        <div class="song-desc">
+          <div>Bones</div>
+          <div>Imagine Dragons</div>
+          <!-- heart icon and ban icon -->
+        </div>
+        <div class="heart-and-ban-icon">
+          <span>
+            <ion-icon name="heart-outline"></ion-icon>
+          </span>
+          <span>
+            <ion-icon name="ban-outline"></ion-icon>
+          </span>
+        </div>
+      </div>
+      <!-- these are the main player controls -->
+      <div class="player">
+        <div class="controls">
+          <ion-icon name="shuffle-outline"></ion-icon>
+          <ion-icon name="play-skip-back"></ion-icon>
+          <ion-icon name="pause"></ion-icon>
+          <ion-icon name="play-skip-forward"></ion-icon>
+          <ion-icon name="reload"></ion-icon>
+        </div>
+        <!-- this is the slider -->
+        <div id="slider">
+          <!-- current time -->
+          <div class="time">1:39</div>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+          <!-- total time -->
+          <div class="time">4:44</div>
+        </div>
+      </div>
+      <!-- other icons including the volume slider and all -->
+      <div class="extras">
+        <div>
+          <ion-icon name="list-outline"></ion-icon>
+        </div>
+        <div>
+          <ion-icon name="laptop-outline"></ion-icon>
+        </div>
+        <div>
+          <ion-icon name="volume-high-outline"></ion-icon>
+        </div>
+        <div class="slidecontainer" style="width: 30%">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            id="myRange"
+            style="margin-top: 0px"
+          />
+        </div>
+        <div>
+          <ion-icon name="chevron-expand-outline"></ion-icon>
+        </div>
+      </div>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
